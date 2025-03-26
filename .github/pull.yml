@@ -1,5 +1,9 @@
 version: "1"
 rules:
   - base: master
-    upstream: danielmiessler:master # change `wei` to the owner of upstream repo
+    upstream: danielmiessler:master
     mergeMethod: none
+    assignees:
+      - EnzanNoMetsuke
+    reviewers:
+      - EnzanNoMetsuke
